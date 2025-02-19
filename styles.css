@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  flex: none;
   box-sizing: border-box;
 }
 
@@ -26,6 +25,7 @@ button.toggle {
 nav {
   width: 250px;
   height: 100vh;
+  flex: none;
   background-color: #333;
   transition: all 0.3s;
   padding-top: 60px;
@@ -74,6 +74,9 @@ header {
 
 article {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 @media (max-width: 768px) {
